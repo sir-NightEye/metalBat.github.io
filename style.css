@@ -1,0 +1,185 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+.navbar {
+    
+    display:flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top:0;
+  cursor:pointer;
+  background-image:linear-gradient(90deg,rgba(233, 34, 74, 0.978),rgb(58, 52, 52)); 
+}
+
+.nav-list {
+width:100%;
+
+display:flex;
+align-items: center;
+
+}
+
+.nav-list li {
+    width:10%;
+    margin:none;
+    list-style: none;
+   padding:8px 10px;
+ ;
+
+}
+.nav-list li a { 
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+text-decoration: none;
+color:black
+
+  
+}
+.nav-list li a:hover{
+    color:red;
+
+}
+
+
+
+
+#search {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 50%;
+    border-radius: 10px;
+    background-color: burlywood;
+    cursor:pointer
+}
+
+.btn {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    background-color: burlywood;
+    border-width: 0px;
+}
+
+
+
+.images{
+    width:50%;
+    margin-left: 25%;
+}
+.text-big {
+    font-size: 50px;
+    text-align: center;
+    border-color:darkgray;
+
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.headings {
+ 
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.buttons  a{
+   
+    position: absolute;
+    display:inline-block;
+}
+.box-main {
+    
+
+    background-color:burlywood;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+     
+    
+}
+.firstSection {
+    height:85vh;
+    background-color: burlywood;
+   
+
+}
+.firstHalf{
+
+    width:80%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.secondHalf {
+    width:30%
+}
+.button1 {
+    margin-left: 35%;
+}
+.metalpower {
+    background-color: burlywood;
+}
+
+.text-small {
+ 
+    
+
+padding-left: 5px;
+padding-right: 5px;
+    font-size:medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.burger{
+
+} 
+
+.line{
+    width:33px;
+    background-color:black;
+    height:4px;
+    margin:3px 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.lastp {
+    padding-bottom: 30px;
+}
+.middlep{
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width:614px){
+    .navlist li {
+       align-items: center;
+    }
+    .navlist{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction:column;
+    }
+    .rightNav{
+        text-align:center;
+    }
+    #search{
+        width:100%
+    }
+    .h-nav{
+        height: 100px;
+    }
+    .v-class{
+        opacity: ;
+    }
+}
+
+
+
